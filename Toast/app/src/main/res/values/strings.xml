@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Toast1</string>
+    <string name="btn0">Clock0</string>
+    <string name="btn1">Clock1</string>
+    <string name="btn2">-Clock0</string>
+    <string name="btn3">-Clock1</string>
+</resources>

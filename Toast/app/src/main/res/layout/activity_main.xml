@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/mybutton1"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn0"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:onClick="showmsg"
+            android:drawableLeft="@drawable/pst"
+            />
+        <Button
+            android:id="@+id/mybutton2"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn1"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:onClick="showmsg"
+            android:drawableLeft="@drawable/tls"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/mybutton3"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn2"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:onClick="showmsg"
+            android:drawableLeft="@drawable/hi"
+
+            />
+        <Button
+            android:id="@+id/mybutton4"
+            android:layout_margin="2dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn3"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:onClick="showmsg"
+            android:drawableLeft="@drawable/usr"
+
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mytext0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        />
+    <TextView
+        android:id="@+id/mytext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        />
+
+    <TextView
+        android:id="@+id/mytext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"/>
+
+    <TextView
+        android:id="@+id/mytext3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"/>
+
+
+
+</LinearLayout>
