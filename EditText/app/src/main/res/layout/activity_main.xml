@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="70dp"
+    android:background="#DCEBF7"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="@string/txt1"
+        android:textStyle="italic"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#276699"
+        android:textCursorDrawable="@null"
+
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:hint="@string/txt2"
+        android:textStyle="italic"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#276699"
+        android:textCursorDrawable="@null"
+
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/buton0"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt3"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:drawableLeft="@drawable/pls"
+        />
+        <Button
+            android:id="@+id/buton1"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt4"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/mins"
+            />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buton2"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt5"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ml"
+            />
+        <Button
+            android:id="@+id/buton3"
+            android:layout_margin="5dp"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txt6"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/div"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtview"
+        android:layout_margin="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textIsSelectable="true"
+        android:textColor="#011F1C"
+
+        />
+
+
+</LinearLayout>
