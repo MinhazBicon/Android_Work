@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5BE18"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_margin="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt0"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        />
+
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/Milkcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt1"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/Flowerrcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt2"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/Sugarcheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt3"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <CheckBox
+        android:layout_margin="10dp"
+        android:id="@+id/Watercheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt4"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+    <Button
+        android:id="@+id/button"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="#18A37D"
+        android:drawableLeft="@drawable/mnk"
+        />
+    <TextView
+        android:id="@+id/text"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:textIsSelectable="true"
+        android:textColor="#000"
+        />
+
+
+</LinearLayout>
