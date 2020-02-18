@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#3ff"
+    tools:context=".Secondactivity">
+
+    <EditText
+        android:id="@+id/editxtid"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textColor="#0F0F0F"
+        android:hint="@string/txt"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/button1id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:text="@string/btn1"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:background="#FF224E"
+        android:drawableLeft="@drawable/rt"
+
+        />
+
+</LinearLayout>
