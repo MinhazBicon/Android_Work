@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">CountryProfile</string>
+    <string name="btn0">Bangladesh</string>
+    <string name="btn1">USA</string>
+    <string name="btn2">Germany</string>
+    <string name="btn3">China</string>
+    <string name="btn4">Oman</string>
+    <string name="btn5">France</string>
+    <string name="btn6">England</string>
+    <string name="txt">Select the country for details...!!</string>
+    <string name="alert_message">Do you want to exit?</string>
+    <string name="alert_title">Warning</string>
+
+    <string name="bangladesh_txt">
+    Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways.\n
+        Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common.\n
+        On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.\n
+    Capital: Dhaka Trending\n
+    Dialing code: +880\n
+    Date format: dd-mm-yyyy AD\n
+    President: Abdul Hamid\n
+    Prime minister: Sheikh Hasina\n
+    </string>
+
+    <string name="usa_txt">
+    The U.S. is a country of 50 states covering a vast swath of North America, with Alaska in the northwest and Hawaii extending the nation’s presence into the Pacific Ocean.\n
+        Major Atlantic Coast cities are New York, a global finance and culture center, and capital Washington, DC.\n
+        Midwestern metropolis Chicago is known for influential architecture and on the west coast, Los Angeles\' Hollywood is famed for filmmaking.\n
+    States: California, Florida, Texas, Hawaii, New Jersey, Arizona, MORE Trending\n
+    Capital: Washington, D.C.\n
+    Dialing code: +1\n
+    President: Donald Trump\n
+    Population: 327.2 million (2018)\n
+    Official languages: None at federal level\n
+    </string>
+    
+    <string name="germany_txt">
+     Germany is a Western European country with a landscape of forests, rivers, mountain ranges and North Sea beaches.\n 
+        It has over 2 millennia of history. Berlin, its capital, is home to art and nightlife scenes, the Brandenburg Gate and many sites relating to WWII.\n
+        Munich is known for its Oktoberfest and beer halls, including the 16th-century Hofbräuhaus. Frankfurt, with its skyscrapers, houses the European Central Bank.\n
+     President: Frank-Walter Steinmeier Trending\n
+     Capital: Berlin\n
+     Currency: Euro\n
+     Points of interest: Neuschwanstein Castle, Brandenburg Gate,\n 
+     Colleges and Universities: Technische Universität München,\n
+    </string>
+    
+    <string name="china_txt">
+    China, officially the People\'s Republic of China, is a country in East Asia and is the world\'s most populous country, with a population of around 1.428 billion in 2017.\n
+        Covering approximately 9,600,000 square kilometers, it is the third-largest or the fourth-largest country by area.\n
+    Population: 1.386 billion (2017) Trending, World Bank\n
+    Capital: Beijing\n
+    Dialing code: +86\n
+    Currency: Renminbi\n
+    Official script: Simplified Chinese\n
+    President: Xi Jinping\n
+    </string>
+
+    <string name="oman_txt">
+     Oman, officially the Sultanate of Oman, is an Arab country on the southeastern coast of the Arabian Peninsula in Western Asia.\n
+        Its official religion is Islam. Wikipedia\n
+     Capital: Muscat\n
+     Dialing code: +968\n
+     Area: 309,501 km²\n
+     Currency: Omani rial\n
+     Sultan: Haitham bin Tariq Al Said\n
+    </string>
+
+    <string name="france_txt">
+     France, in Western Europe, encompasses medieval cities, alpine villages and Mediterranean beaches.\n
+        Paris, its capital, is famed for its fashion houses, classical art museums including the Louvre and monuments like the Eiffel Tower.\n
+        The country is also renowned for its wines and sophisticated cuisine.\n
+        Lascaux’s ancient cave drawings, Lyon’s Roman theater and the vast Palace of Versailles attest to its rich history\n.
+     Unemployment rate: 8.5% (Oct 2019) Eurostat, Trending\n
+     Capital: Paris\n
+     Nationality (2018): 93.0% French-born; 7.0% foreign-born;\n
+     President: Emmanuel Macron\n
+     Currencies: Euro, CFP franc\n
+    </string>
+
+    <string name="england_txt">
+     England is a country that is part of the United Kingdom.\n
+        It shares land borders with Wales to the west and Scotland to the north.\n
+        The Irish Sea lies west of England and the Celtic Sea to the southwest.\n
+        England is separated from continental Europe by the North Sea to the east and the English Channel to the south.\n
+     Capital: London\n
+     Sovereign state Legal jurisdiction: United Kingdom; England and Wales\n
+     Currency: Pound sterling\n
+     Population: 55.98 million (2018) ONS UK\n
+     Points of interest: Big Ben, Tower of London, Stonehenge, MORE\n
+
+    </string>
+
+
+</resources>

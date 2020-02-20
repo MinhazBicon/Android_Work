@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#33A7FF"
+    android:gravity="center"
+    android:weightSum="8"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+ <ScrollView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content">
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="@string/txt"
+        android:textStyle="bold"
+        android:textColor="#0A0A0A"
+        android:textIsSelectable="true"
+        />
+</ScrollView>
+
+    <Button
+        android:id="@+id/bd"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn0"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/bangladesh"
+
+        />
+    <Button
+        android:id="@+id/us"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn1"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/usa"
+
+        />
+    <Button
+        android:id="@+id/ger"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn2"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/germany"
+
+        />
+    <Button
+        android:id="@+id/chn"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn3"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/china"
+
+        />
+    <Button
+        android:id="@+id/omn"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn4"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/oman"
+
+        />
+    <Button
+        android:id="@+id/frnc"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn5"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/france"
+
+        />
+    <Button
+        android:id="@+id/eng"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn6"
+        android:textStyle="bold"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:drawableLeft="@drawable/england"
+        />
+
+</LinearLayout>
