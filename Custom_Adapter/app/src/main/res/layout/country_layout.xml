@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:weightSum="4"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="65dp">
+
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/image_view_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:src="@drawable/bangladesh"
+            />
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+         <TextView
+             android:layout_marginTop="8dp"
+             android:layout_marginBottom="8dp"
+             android:layout_marginRight="20dp"
+             android:gravity="center_horizontal"
+             android:id="@+id/text_view_id1"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textStyle="bold"
+             android:textIsSelectable="true"
+             android:text="Bangladesh"
+             android:textAppearance="?android:attr/textAppearanceLarge"
+             />
+
+         <TextView
+             android:gravity="center_horizontal"
+             android:id="@+id/text_view_id2"
+             android:layout_marginLeft="5dp"
+             android:layout_marginRight="20dp"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:textIsSelectable="true"
+             android:textStyle="italic"
+             android:text="@string/txt0"
+             android:textAppearance="?android:attr/textAppearanceSmall"
+             />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
