@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/setting_id1"
+        android:title="@string/Txt2"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/setting_id2"
+        android:title="@string/Txt3"
+        app:showAsAction="never"
+        />
+
+    <item
+        android:id="@+id/setting_id3"
+        android:title="@string/Txt4"
+        android:icon="@drawable/ic_show_chart_black_24dp"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/setting_id4"
+        android:title="@string/Txt5"
+        app:showAsAction="never"
+    />
+
+    <item
+        android:id="@+id/setting_id5"
+        android:title="@string/Txt6"
+        app:showAsAction="never"
+        />
+</menu>

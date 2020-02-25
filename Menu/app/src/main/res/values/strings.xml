@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="Txt0">What do you want?</string>
+    <string name="Txt1">Click It</string>
+    <string name="Txt2">Settings</string>
+    <string name="Txt3">Connect</string>
+    <string name="Txt4">show</string>
+    <string name="Txt5">Delete</string>
+    <string name="Txt6">Turn On</string>
+    <string name="Txt7">Back</string>
+    <string name="Txt8">Copy</string>
+</resources>
