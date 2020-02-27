@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SearchView</string>
+    <string-array name="list_items">
+        <item>Mahin</item>
+        <item>Rakib</item>
+        <item>Samsuu</item>
+        <item>Ganja</item>
+        <item>Antik</item>
+        <item>Mesba</item>
+        <item>Shihab</item>
+        <item>Saydur</item>
+        <item>Sadat</item>
+        <item>Nazmus</item>
+        <item>Bicon</item>
+        <item>Minhaz</item>
+        <item>Saifa</item>
+        <item>Elen</item>
+        <item>Mahia</item>
+        <item>Rumi</item>
+        <item>Sakib</item>
+        <item>Choyti</item>
+        <item>Nusrat</item>
+        <item>Dihan</item>
+        <item>Promit</item>
+        <item>Ahsan</item>
+    </string-array>
+</resources>
