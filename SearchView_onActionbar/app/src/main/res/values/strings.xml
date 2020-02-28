@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SearchView_onActionbar</string>
+    <string name="text1">My_item_list</string>
+    <string name="text2">Search</string>
+    <string-array name="Item">
+        <item>Bicon</item>
+        <item>Licon</item>
+        <item>Cicon</item>
+        <item>Aicon</item>
+        <item>Dicon</item>
+        <item>Micon</item>
+        <item>Nicon</item>
+        <item>Oicon</item>
+        <item>Picon</item>
+        <item>Qicon</item>
+        <item>Ricon</item>
+        <item>Sicon</item>
+        <item>Ticon</item>
+        <item>Uicon</item>
+        <item>Vicon</item>
+        <item>Wicon</item>
+        <item>Xicon</item>
+        <item>Yicon</item>
+    </string-array>
+</resources>
