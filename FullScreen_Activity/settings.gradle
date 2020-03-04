@@ -1,0 +1,2 @@
+rootProject.name='FullScreen_Activity'
+include ':app'
