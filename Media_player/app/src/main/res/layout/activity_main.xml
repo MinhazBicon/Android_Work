@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="2"
+    android:background="@drawable/gradient"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/imageview_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/music"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+           android:gravity="center"
+           android:layout_weight="1"
+           android:orientation="horizontal"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/nextbutton_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_next_black_24dp"
+            />
+
+        <ImageButton
+            android:id="@+id/pausebutton_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_pause_circle_outline_black_24dp"
+            />
+
+        <ImageButton
+            android:id="@+id/playbutton_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_black_24dp"
+            />
+
+        <ImageButton
+            android:id="@+id/previousbutton_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_skip_previous_black_24dp"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
