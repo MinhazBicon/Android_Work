@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="15dp"
+    android:background="@drawable/grd1"
+    android:orientation="vertical"
+    android:weightSum="4"
+    tools:context=".Feedback_activity">
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edit_text_id1"
+            android:backgroundTint="#D500F9"
+            android:textAlignment="center"
+            android:hint="@string/name"
+            android:textStyle="italic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_weight=".5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <EditText
+            android:gravity="center"
+            android:id="@+id/edit_text_id2"
+            android:backgroundTint="#4609CD"
+            android:textAlignment="center"
+            android:hint="@string/message"
+            android:textStyle="italic"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+      <Button
+          android:layout_marginRight="10dp"
+          android:background="#E8266B"
+          style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+          android:id="@+id/button_id1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="italic"
+          android:text="Send"
+          android:drawableLeft="@drawable/telegram"
+          android:textAllCaps="false"
+          />
+        <Button
+          android:layout_marginLeft="10dp"
+          android:background="#EA3054"
+          style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+          android:id="@+id/button_id2"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textStyle="italic"
+          android:drawableLeft="@drawable/magnet"
+          android:text="Clear"
+          android:textAllCaps="false"
+          />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

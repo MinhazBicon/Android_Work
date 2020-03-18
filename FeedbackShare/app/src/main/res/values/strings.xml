@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Feedback&amp;Share</string>
+    <string name="name">Enter your Name</string>
+    <string name="message">Enter your Message</string>
+</resources>
