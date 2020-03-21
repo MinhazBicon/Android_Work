@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AutoComplete text view</string>
+    <string-array name="name_array">
+        <item>Bicon</item>
+        <item>Mahin</item>
+        <item>Likhon</item>
+        <item>Shihab</item>
+        <item>Sadat</item>
+        <item>Limon</item>
+        <item>Hamim</item>
+        <item>Himel</item>
+        <item>Sifat</item>
+        <item>Arman</item>
+        <item>Xamm</item>
+        <item>Eric</item>
+        <item>Lisa</item>
+    </string-array>
+</resources>
