@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name" translatable="false">Expandable_listView</string>
+    <string-array name="header_Array_name">
+        <item>AFA</item>
+        <item>BIOS</item>
+        <item>BYTE</item>
+        <item>RDMA</item>
+        <item>CPU</item>
+        <item>HDD</item>
+        <item>LCD</item>
+        <item>MAC</item>
+        <item>OS</item>
+        <item>PC</item>
+        <item>SSD</item>
+        <item>SATA</item>
+        <item>PDF</item>
+        <item>RAID</item>
+        <item>RAM</item>
+        <item>ROM</item>
+        <item>SDS</item>
+        <item>VGA</item>
+        <item>IP</item>
+        <item>ISP</item>
+        <item>URL</item>
+
+    </string-array>
+
+    <string-array name="child_Array_name">
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+        <item>This acronym stands for All Flash Array, a grouping of flash memory devices that helps boost performance.</item>
+
+
+
+    </string-array>
+
+</resources>
