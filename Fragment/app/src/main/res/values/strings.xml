@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="influenza">Influenza is a viral infection that attacks your respiratory system — your nose, throat and lungs.</string>
+    <string name="hiv">The human immunodeficiency viruses (HIV) are two species of Lentivirus (a subgroup of retrovirus) that infect humans.</string>
+    <string name="aichi">The Aichi Virus is a member of the Kobuvirus genus in the Picornaviridae family.</string>
+    <string name="chikungunya">Chikungunya is a viral disease transmitted to humans by infected mosquitoes. It causes fever and severe joint pain.</string>
+    <string name="cosa">Cosavirus is a genus of viruses in the order Picornavirales, in the family Picornaviridae. Human serve as natural hosts.</string>
+    <string name="cowpox">The cowpox virus is closely related to variola, the causative virus of smallpox.</string>
+    <string name="dhori">Dhori virus (DHOV) is a species of the genus Thogotovirus and a member of the family Orthomyxoviridae.</string>
+    <string name="dugbe">The virus is enzootic in eastern Africa, and closely related viruses occur in Nigeria (Dugbe virus in cattle), 
+                         and in India and Sri Lanka (Ganjam virus in sheep</string>
+    <string name="hantaan">Hantaan orthohantavirus (HTNV) is an enveloped, single-stranded, negative-sense RNA virus species of Old World Orthohantavirus.</string>
+    <string name="corona">Rapid risk assessment: Novel coronavirus disease 2019 (COVID-19) pandemic: increased transmission in the EU/EEA and the UK – sixth update.</string>
+</resources>
