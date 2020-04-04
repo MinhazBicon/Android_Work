@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/bangladsh"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bd"
+        android:layout_height="match_parent"
+        />
+
+    <ImageView
+        android:visibility="invisible"
+        android:id="@+id/usa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/us"
+        />
+
+    <ImageView
+         android:visibility="gone"
+        android:id="@+id/china"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ch"
+        />
+
+</FrameLayout>
