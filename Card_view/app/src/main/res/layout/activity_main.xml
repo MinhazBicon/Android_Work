@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="2"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/background_color"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/school"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:background="@drawable/backgrnd_purple"
+                    android:padding="10dp"
+                    android:src="@drawable/school_icon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent3"
+                    />
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic|bold"
+                    android:text="@string/school"
+                    />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/hospital"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:background="@drawable/backgnd_green"
+                    android:padding="10dp"
+                    android:src="@drawable/hospital_icon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent2"
+                    />
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic|bold"
+                    android:text="@string/hospital"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+    !Second....linear...layoyut
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:clipToPadding="false"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/store"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:background="@drawable/backgrnd_blue"
+                    android:padding="10dp"
+                    android:src="@drawable/store_icon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent"
+                    />
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic|bold"
+                    android:text="@string/shop"
+                    />
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/library"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:background="@drawable/backgrnd_pink"
+                    android:padding="10dp"
+                    android:src="@drawable/library_icon1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="10dp"
+                    android:background="@color/colorAccent1"
+                    />
+                <TextView
+                    android:textAppearance="?android:textAppearanceLarge"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="italic|bold"
+                    android:text="@string/library"
+                    />
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+</LinearLayout>

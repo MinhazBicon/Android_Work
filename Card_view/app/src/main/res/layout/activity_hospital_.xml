@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#C9D0FA"
+    tools:context=".hospital_Activity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hospital_icon1"
+        android:background="#6200EA"
+        />
+
+    <TextView
+        android:id="@+id/hospital_text_view"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textIsSelectable="true"
+        android:textStyle="italic|bold"
+        android:text="Your Hospital Profile"
+        />
+
+    <Button
+        android:id="@+id/hospital_btn"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/hospital_icon"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Click"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Inverse"
+        android:background="@color/colorAccent"
+        />
+
+
+</LinearLayout>
