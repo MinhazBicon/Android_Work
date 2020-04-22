@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Share_preference</string>
+    <string name="text1">Enter Name</string>
+    <string name="text2">Password</string>
+    <string name="text3">Save</string>
+    <string name="text4">Load_data</string>
+</resources>
