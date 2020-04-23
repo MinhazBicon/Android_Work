@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Shared_preference1</string>
+    <string name="score_up">Score up</string>
+    <string name="score_down">Score down</string>
+    <string name="default_score">Score: 0</string>
+</resources>
