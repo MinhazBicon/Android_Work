@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sared_preference2</string>
+    <string name="default_txt">default color is Shown</string>
+    <string name="red">last time you chose red</string>
+    <string name="blue">last time you chose blue</string>
+    <string name="purple">last time you chose purple</string>
+    <string name="light_green">last time you chose light green</string>
+    <string name="red_color">Red color</string>
+    <string name="blue_color">Blue color</string>
+    <string name="purple_color">Purple color</string>
+    <string name="light_green_color">light green color</string>
+</resources>
