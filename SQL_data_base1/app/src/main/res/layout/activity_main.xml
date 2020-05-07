@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="8"
+    android:padding="5dp"
+    android:background="@drawable/grd1"
+    tools:context=".MainActivity">
+
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_weight="1"
+       android:layout_height="0dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold|italic"
+           android:textIsSelectable="true"
+           android:text="@string/name"
+           android:background="#F0FAFB"
+           />
+
+       <EditText
+           android:layout_marginLeft="5dp"
+           android:id="@+id/name_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="italic"
+           android:textSize="17sp"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+        android:layout_weight="1"
+       android:layout_height="0dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold|italic"
+           android:textIsSelectable="true"
+           android:text="@string/age"
+           android:background="#F0FAFB"
+           />
+
+       <EditText
+           android:layout_marginLeft="20dp"
+           android:id="@+id/age_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="italic"
+           android:textSize="17sp"
+           android:gravity="center"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+        android:layout_weight="1"
+       android:layout_height="0dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold|italic"
+           android:textIsSelectable="true"
+           android:text="@string/gender"
+           android:background="#F0FAFB"
+           />
+
+       <EditText
+           android:layout_marginLeft="5dp"
+           android:id="@+id/gender_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="italic"
+           android:textSize="17sp"
+           android:gravity="center"
+
+           android:layout_marginStart="5dp"
+            />
+
+   </LinearLayout>
+    <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+        android:layout_weight="1"
+       android:layout_height="0dp">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textSize="20sp"
+           android:textStyle="bold|italic"
+           android:textIsSelectable="true"
+           android:text="@string/id"
+           android:background="#F0FAFB"
+           />
+
+       <EditText
+           android:layout_marginLeft="15dp"
+           android:id="@+id/ID_id"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:textStyle="italic"
+           android:textSize="17sp"
+           android:gravity="center"
+           android:inputType="number"
+           android:autofillHints="" />
+
+   </LinearLayout>
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/save_btn_id"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="@string/btn1"
+        android:background="@drawable/g4"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/display_btn_id"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="@string/btn2"
+        android:background="@drawable/g4"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/update_btn_id"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="@string/btn3"
+        android:background="@drawable/g4"
+        />
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/delete_btn_id"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        style="@style/TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+        android:text="@string/btn4"
+        android:background="@drawable/g4"
+        />
+</LinearLayout>

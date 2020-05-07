@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQL_data_base1</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="btn2">Display Data</string>
+    <string name="btn1">Save</string>
+    <string name="id">ID</string>
+    <string name="btn3">Update</string>
+    <string name="btn4">Delete</string>
+</resources>
