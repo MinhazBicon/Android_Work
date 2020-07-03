@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SQL_data_base2</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="Name">Name</string>
+    <string name="email">Email</string>
+    <string name="re_password">Re-Password</string>
+    <string name="welcome_note">Welcome!!! \n Login Successful</string>
+</resources>
